@@ -1,3 +1,9 @@
+from typing import Any
+
+import pandas as pd
+import numpy as np
+
+
 MAX_WIDTH = 20
 ELLIPSIS = ' ...'
 ADJ_WIDTH = MAX_WIDTH - len(ELLIPSIS)
